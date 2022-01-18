@@ -1974,10 +1974,10 @@ static const GtkToggleActionEntry toggle_entries_collection[] = {
 };
 
 static const GtkActionEntry action_entries_collection[] = {
-    { "GoPrevious", GTK_STOCK_GO_BACK, N_("_Previous Image"), "<Alt>Left",
+    { "GoPrevious", GTK_STOCK_GO_BACK, N_("_Previous Image"), "A",
       N_("Go to the previous image of the collection"),
       G_CALLBACK (vnr_window_cmd_prev) },
-    { "GoNext", GTK_STOCK_GO_FORWARD, N_("_Next Image"), "<Alt>Right",
+    { "GoNext", GTK_STOCK_GO_FORWARD, N_("_Next Image"), "D",
       N_("Go to the next image of the collection"),
       G_CALLBACK (vnr_window_cmd_next) },
     { "GoFirst", GTK_STOCK_GOTO_FIRST, N_("_First Image"), "<Alt>Home",
